@@ -1,0 +1,386 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Sacramento&display=swap);
+@charset "UTF-8";
+/* 
+  配色はこちらを参照
+  https://colordrop.io/color/17935
+ */
+body {
+  margin: 0;
+  background-color: #2694ab;
+  /* header */
+  /* main */
+  /* footer */
+}
+body header {
+  background-color: #e59572;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+body header .title {
+  width: 100%;
+  height: 200px;
+  color: #f6f6e9;
+  font-family: "Noto Serif", serif;
+  font-size: 3em;
+  text-align: center;
+  line-height: 200px;
+}
+@media (max-width: 999px) {
+  body header .title {
+    height: 100px;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    line-height: 100px;
+  }
+}
+@media (max-width: 480px) {
+  body header .title {
+    height: 100px;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    line-height: 100px;
+  }
+}
+body main {
+  width: 1000px;
+  min-height: 1000px;
+  margin: 20px auto;
+}
+@media (max-width: 999px) {
+  body main {
+    width: 100%;
+    margin: 20px auto 0;
+  }
+}
+@media (max-width: 480px) {
+  body main {
+    width: 100%;
+    margin: 20px auto 0;
+  }
+}
+body main .contanor {
+  width: 100%;
+  display: flex;
+  height: auto;
+  /* article.blog */
+  /* article.index */
+}
+@media (max-width: 999px) {
+  body main .contanor {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  body main .contanor {
+    display: block;
+  }
+}
+body main .contanor article.blog {
+  background-color: #2694ab;
+  width: 74%;
+  height: auto;
+}
+@media (max-width: 999px) {
+  body main .contanor article.blog {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  body main .contanor article.blog {
+    width: 100%;
+  }
+}
+body main .contanor article.blog .content {
+  margin: 0 10px 10px 10px;
+  background-color: #f6f6e9;
+}
+body main .contanor article.blog .content .top {
+  position: relative;
+  padding: 4px;
+  margin-bottom: 40px;
+}
+body main .contanor article.blog .content .top .title {
+  margin-left: 100px;
+}
+body main .contanor article.blog .content .top .category {
+  margin-left: 100px;
+}
+body main .contanor article.blog .content .top .category .categorytag {
+  background: #ea7070;
+  cursor: pointer;
+  padding: 7px;
+  line-height: 7px;
+  box-sizing: border-box;
+  font-size: 0.7rem;
+}
+body main .contanor article.blog .content .top .category .categorytag a {
+  text-decoration: none;
+  color: #f6f6e9;
+}
+body main .contanor article.blog .content .top .date {
+  color: #f6f6e9;
+  background: #ea7070;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 1rem;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  padding-top: 10px;
+}
+body main .contanor article.blog .content .top .date span {
+  font-size: 0.8rem;
+  border-top: 1px #f6f6e9 solid;
+  padding-top: 6px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+body main .contanor article.blog .content .top .blogbody {
+  width: 100;
+  display: block;
+  text-align: center;
+}
+body main .contanor article.blog .content .top .blogbody img {
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 10px;
+}
+body main .contanor article.blog .content .top .blogbody p {
+  text-align: left;
+  width: 600px;
+  margin: 0 auto 10px;
+}
+body main .contanor article.index {
+  background-color: #2694ab;
+  width: 74%;
+  height: auto;
+}
+@media (max-width: 999px) {
+  body main .contanor article.index {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  body main .contanor article.index {
+    width: 100%;
+  }
+}
+body main .contanor article.index .content {
+  margin: 0 10px 10px 10px;
+  background-color: #f6f6e9;
+  padding-bottom: 30px;
+}
+body main .contanor article.index .content .top {
+  position: relative;
+  padding: 4px;
+  margin-bottom: 40px;
+}
+body main .contanor article.index .content .top .title {
+  margin-left: 100px;
+}
+body main .contanor article.index .content .top .category {
+  margin-left: 100px;
+}
+body main .contanor article.index .content .top .category .categorytag {
+  background: #ea7070;
+  cursor: pointer;
+  padding: 7px;
+  line-height: 7px;
+  box-sizing: border-box;
+  font-size: 0.7rem;
+}
+body main .contanor article.index .content .top .category .categorytag a {
+  text-decoration: none;
+  color: #f6f6e9;
+}
+body main .contanor article.index .content .top .date {
+  color: #f6f6e9;
+  background: #ea7070;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 1rem;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  padding-top: 10px;
+}
+body main .contanor article.index .content .top .date span {
+  font-size: 0.8rem;
+  border-top: 1px #f6f6e9 solid;
+  padding-top: 6px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+body main .contanor article.index .content .top .blogbody {
+  margin-left: 100px;
+  display: flex;
+}
+@media (max-width: 999px) {
+  body main .contanor article.index .content .top .blogbody {
+    margin-left: 0;
+    display: flex;
+  }
+}
+@media (max-width: 480px) {
+  body main .contanor article.index .content .top .blogbody {
+    margin-left: 0;
+    display: block;
+  }
+}
+body main .contanor article.index .content .top .blogbody img {
+  width: 340px;
+  height: auto;
+}
+body main .contanor article.index .content .top .blogbody .sentence {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+body main .contanor article.index .page-layout {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+body main .contanor article.index .page-layout .pager {
+  display: flex;
+  justify-content: space-around;
+}
+body main .contanor article.index .page-layout .pager .pre, body main .contanor article.index .page-layout .pager .next, body main .contanor article.index .page-layout .pager .page {
+  padding: 7px;
+  background-color: #e59572;
+  margin-right: 3px;
+  cursor: pointer;
+}
+body main .contanor article.index .page-layout .pager .pre:hover, body main .contanor article.index .page-layout .pager .next:hover, body main .contanor article.index .page-layout .pager .page:hover {
+  opacity: 0.3;
+}
+body main .contanor article.index .page-layout .pager .current {
+  background-color: #ea7070;
+}
+body main .contanor aside {
+  margin-left: 10px;
+  background-color: #f6f6e9;
+  width: 26%;
+}
+@media (max-width: 999px) {
+  body main .contanor aside {
+    margin-left: 0;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  body main .contanor aside {
+    margin-left: 0;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+}
+body main .contanor aside .content {
+  margin: 10px;
+}
+body main .contanor aside .content .title {
+  font-size: 1.1rem;
+  border-bottom: 2px #ea7070 solid;
+}
+body main .contanor aside ul.recent {
+  margin-left: -20px;
+}
+body main .contanor aside ul.recent li {
+  font-size: 0.7rem;
+  list-style: none;
+  margin-bottom: 10px;
+}
+body main .contanor aside ul.recent li a {
+  color: #ea7070;
+  text-decoration: none;
+}
+body main .contanor aside ul.recent li a:hover {
+  background-color: #e5cabe;
+}
+body main .contanor aside ul.category {
+  margin-left: -20px;
+}
+body main .contanor aside ul.category li {
+  font-size: 0.7rem;
+  list-style: none;
+  margin-bottom: 10px;
+  display: inline-block;
+  background-color: #ea7070;
+  padding: 5px;
+  border-radius: 5%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body main .contanor aside ul.category li a {
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: #f6f6e9;
+}
+body main .contanor aside ul.category li:hover {
+  background-color: #e59572;
+}
+body main .contanor aside ul.sns {
+  margin-left: -20px;
+}
+body main .contanor aside ul.sns li {
+  font-size: 0.7rem;
+  list-style: none;
+  margin-top: 20px;
+  background-color: #e59572;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 90%;
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+  /* div全体をリンク化するためです。 */
+}
+@media (max-width: 999px) {
+  body main .contanor aside ul.sns li {
+    width: 40%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+body main .contanor aside ul.sns li a {
+  position: absolute;
+  top: 10;
+  left: 20;
+  width: 100%;
+  height: 100%;
+  color: #f6f6e9;
+  text-decoration: none;
+}
+body main .contanor aside ul.sns li:hover {
+  background-color: #e5cabe;
+}
+body footer {
+  width: 100%;
+  background-color: #e59572;
+  position: absolute;
+  /*←絶対位置*/
+  height: 50px;
+}
+@media (max-width: 999px) {
+  body footer {
+    position: relative;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  body footer {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map*/
